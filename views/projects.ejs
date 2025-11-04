@@ -1,0 +1,51 @@
+<%- include ./partials/header.ejs %>
+<%- include ./partials/main_nav.ejs %>
+
+<main class="container mt-5">
+  <section id="projects">
+    <h1 class="display-4"><%= title %></h1>
+    <hr>
+    
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Networking 1 Case Study</h5>
+            <p class="card-text">Configured a network topology using static routes.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Assembly Calculator</h5>
+            <p class="card-text">Created an arithmetic calculator in ARMv7 assembly language on cpulator using registers.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Fibonacci Generator</h5>
+            <p class="card-text">Built a Fibonacci number generator in RISC-V assembly on cpulator.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Keylogger</h5>
+            <p class="card-text">Created a keylogger on python that when ran it would log all keystrokes.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<%- include ./partials/footer.ejs %>
